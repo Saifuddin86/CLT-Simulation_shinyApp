@@ -1,0 +1,13 @@
+name: CLT_Sim
+title: CLT_Sim
+username: saif86-ctg
+account: saif86-ctg
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14518616
+bundleId: 10138112
+url: https://saifuddin24.shinyapps.io/CLT_Sim/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: clt_simulation.R
