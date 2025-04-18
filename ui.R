@@ -42,9 +42,11 @@ shinyUI(
                selectInput("distribution", "Population distribution", distribution),
                sliderInput("bins", "Number of bins for the population distribution", 
                            min = 5, max = 50, value = 10),
-               p( tags$b("Method:"), "In the following simulation, samples are drawn 
-                 repeatedly from the population and sample means are computed;
-                 finally histogram of samples means are plotted.")
+               p(tags$b("Method:"), 
+                 tags$span(class = "justified-text", 
+                           "In the following simulation, samples are drawn repeatedly from the population and sample means are computed; finally histogram of sample means are plotted.")
+               )
+               
              )
       ),
       column(8, 
